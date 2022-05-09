@@ -1,7 +1,7 @@
-#include<iostream>
-using namespace std;
+#include "ncurses_display.h"
+#include "system.h"
 
-int main()
-{
-  cout<<"nothing done"<<endl;
+int main() {
+  System system;
+  NCursesDisplay::Display(system);
 }
